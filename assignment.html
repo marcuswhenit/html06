@@ -1,4 +1,21 @@
 <style>
+    p {
+        font-size: 55px;
+        -webkit-text-stroke: 1px rgb(248, 240, 227);
+        transition: 1s;
+        text-align: center;
+        position: relative;
+        width: 500px;
+    }
+
+    p:hover {
+        font-size: 70px;
+        -webkit-text-stroke: 2px rgb(0, 0, 0);
+        transition: 1s;
+        color: rgb(248, 240, 227);
+        width: 630px;
+    }
+
     body {
         background-image: url("osamaseason.png");
         background-size: 775px;
@@ -16,7 +33,6 @@
         padding: 5px;
         text-align: center;
         position: relative;
-
         transition: 0.5s;
         font-size: 30px;
     }
@@ -25,36 +41,57 @@
         color: black;
         background-color: rgb(255, 255, 255);
         transition: 0.5s;
-        left: 0px;
+        /*left: 0px;*/
         font-weight: bold;
         border: 2px solid rgb(0, 0, 0);
         width: 500px;
         height: 50px;
         line-height: 50px;
+        text-align: center;
     }
 
-    a,
-    a:visited,
-    a:link {
-        text-decoration: none;
+    .vertical-center {
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        -ms-transform: translateY(-50%);
+        transform: translateY(-50%);
     }
+        a,
+        a:visited,
+        a:link {
+            text-decoration: none;
+        }
 </style>
 <header>
-
-
-
+    <title>Underground Artists</title>
 </header>
 
 <body>
+    <center class='header'>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+       
+        <p><b>Underground Artists</b></p>
+    </center>
     <center>
-        <a href="http://www.google.com">
-            <li>OsamaSon</li>
-        </a>
-        <a href="http://www.espn.com">
-            <li>che</li>
-        </a>
-        <a href="example.html">
-            <li>tana</li>
-        </a>
+        <br>
+        <br>
+            <a href="osama.html">
+                <li>OsamaSon</li>
+            </a>
+            <a href="http://www.espn.com">
+                <li>che</li>
+            </a>
+            <a href="example.html">
+                <li>tana</li>
+            </a>
     </center>
 </body>
